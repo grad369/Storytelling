@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BFBC4EBD-F3F7-48C6-AF47-2EDCCF4DCF71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StorytellingMobileApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1FADD628330998B047096672B93B1BC6D1BFB6E3</key>
+		<string>secure.kharkiv.p-product.com:myh/poc-ios.git</string>
+		<key>6C5C85E2-96F2-4EBA-B7A0-5706A0F6E98E</key>
+		<string>ssh://secure.kharkiv.p-product.com/myh/poc-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StorytellingMobileApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1FADD628330998B047096672B93B1BC6D1BFB6E3</key>
+		<string>../..</string>
+		<key>6C5C85E2-96F2-4EBA-B7A0-5706A0F6E98E</key>
+		<string>../../../StorytellingMobileApp</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>secure.kharkiv.p-product.com:myh/poc-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1FADD628330998B047096672B93B1BC6D1BFB6E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C5C85E2-96F2-4EBA-B7A0-5706A0F6E98E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StorytellingMobileApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1FADD628330998B047096672B93B1BC6D1BFB6E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>trunk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

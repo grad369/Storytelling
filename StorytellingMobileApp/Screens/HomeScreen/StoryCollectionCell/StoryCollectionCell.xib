@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StoryCollectionCell" id="haW-I8-IID" customClass="StoryCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqK-dj-5ua" userLabel="View - touches intercept">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CellGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Eqo-0I-peJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="360"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="360" id="jAP-hJ-dM0"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubN-54-dyP">
+                        <rect key="frame" x="88" y="235" width="145" height="110"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="arq-9I-Wq8">
+                                <rect key="frame" x="46" y="5" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Cfh-Ag-opd"/>
+                                    <constraint firstAttribute="width" constant="50" id="Zaw-iV-vn8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITLE STORY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waj-s9-OJR">
+                                <rect key="frame" x="17" y="59" width="112" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="my name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNY-sg-4vv">
+                                <rect key="frame" x="37" y="84" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="arq-9I-Wq8" firstAttribute="top" secondItem="ubN-54-dyP" secondAttribute="top" constant="5" id="8Ye-Ll-Vgz"/>
+                            <constraint firstItem="waj-s9-OJR" firstAttribute="top" secondItem="arq-9I-Wq8" secondAttribute="bottom" constant="4" id="LSm-hs-hCK"/>
+                            <constraint firstAttribute="height" constant="110" id="e54-gL-Ou6"/>
+                            <constraint firstAttribute="centerX" secondItem="LNY-sg-4vv" secondAttribute="centerX" id="jz7-eF-Uy0"/>
+                            <constraint firstAttribute="centerX" secondItem="waj-s9-OJR" secondAttribute="centerX" id="oZY-ja-bed"/>
+                            <constraint firstAttribute="width" constant="145" id="p4j-Do-3Xu"/>
+                            <constraint firstItem="LNY-sg-4vv" firstAttribute="top" secondItem="waj-s9-OJR" secondAttribute="bottom" constant="-3" id="v0E-MX-Rb9"/>
+                            <constraint firstAttribute="centerX" secondItem="arq-9I-Wq8" secondAttribute="centerX" constant="1.5" id="zzu-hE-tHn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fqK-dj-5ua" secondAttribute="bottom" id="0OL-dU-33H"/>
+                <constraint firstAttribute="centerX" secondItem="ubN-54-dyP" secondAttribute="centerX" id="1tQ-xI-jde"/>
+                <constraint firstAttribute="trailing" secondItem="Eqo-0I-peJ" secondAttribute="trailing" id="8fe-iA-pb0"/>
+                <constraint firstItem="fqK-dj-5ua" firstAttribute="top" secondItem="haW-I8-IID" secondAttribute="top" id="Dvw-n4-AFw"/>
+                <constraint firstAttribute="trailing" secondItem="fqK-dj-5ua" secondAttribute="trailing" id="JfM-l5-tVr"/>
+                <constraint firstItem="ubN-54-dyP" firstAttribute="top" secondItem="haW-I8-IID" secondAttribute="top" constant="235" id="QC2-Jt-SsS"/>
+                <constraint firstItem="Eqo-0I-peJ" firstAttribute="leading" secondItem="haW-I8-IID" secondAttribute="leading" id="QhB-cV-k2W"/>
+                <constraint firstItem="Eqo-0I-peJ" firstAttribute="top" secondItem="haW-I8-IID" secondAttribute="top" id="XmG-Pr-YWT"/>
+                <constraint firstItem="fqK-dj-5ua" firstAttribute="leading" secondItem="haW-I8-IID" secondAttribute="leading" id="cSR-cO-4zl"/>
+            </constraints>
+            <connections>
+                <outlet property="gradient" destination="Eqo-0I-peJ" id="WTd-Ex-Nyz"/>
+                <outlet property="myNameLabel" destination="LNY-sg-4vv" id="Eaq-oI-gzc"/>
+                <outlet property="myPhotoImageView" destination="arq-9I-Wq8" id="azH-RE-96r"/>
+                <outlet property="nameCenterConstraint" destination="jz7-eF-Uy0" id="eiy-v2-WCd"/>
+                <outlet property="photoCenterConstraint" destination="zzu-hE-tHn" id="eu9-1E-MiN"/>
+                <outlet property="titleCenterConstraint" destination="oZY-ja-bed" id="IDZ-hh-9Fy"/>
+                <outlet property="titleStoryLabel" destination="waj-s9-OJR" id="5HR-I5-1jo"/>
+                <outlet property="titleStoryView" destination="ubN-54-dyP" id="Njn-ZK-Qyn"/>
+                <outlet property="titleTopConstraint" destination="QC2-Jt-SsS" id="Dqz-uJ-5ww"/>
+                <outlet property="touchesIntercept" destination="fqK-dj-5ua" id="KYt-bb-6pb"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CellGradient" width="320" height="360"/>
+    </resources>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>storyId</key>
+		<string>E1905309-94EC-4670-9AEE-FEA331880EA8</string>
+		<key>layoutType</key>
+		<string>42</string>
+		<key>user</key>
+		<dict>
+			<key>photo</key>
+			<string>IMG_2855</string>
+			<key>name</key>
+			<string>Storytelling Team</string>
+		</dict>
+		<key>date</key>
+		<date>2014-05-22T08:33:09Z</date>
+		<key>text</key>
+		<string>Creating your own story couldn&apos;t be any easier! It can be anything - a day at the beach, a birthday greeting, a kid learning to ride a bike. The opportunities are endless. All you need to do is grab 1</string>
+		<key>title</key>
+		<string>HOW TO CREATE A STORY</string>
+		<key>media</key>
+		<array>
+			<dict>
+				<key>frameRect</key>
+				<dict>
+					<key>h</key>
+					<real>0.2790490090847015</real>
+					<key>w</key>
+					<integer>1</integer>
+					<key>y</key>
+					<real>0.1883800029754639</real>
+					<key>x</key>
+					<integer>0</integer>
+				</dict>
+				<key>video</key>
+				<string>IMG_2851</string>
+				<key>image</key>
+				<string>IMG_2851</string>
+			</dict>
+			<dict>
+				<key>frameRect</key>
+				<dict>
+					<key>h</key>
+					<real>0.5598480105400085</real>
+					<key>w</key>
+					<real>0.664952993392944</real>
+					<key>y</key>
+					<real>0.218994006514549</real>
+					<key>x</key>
+					<real>0.206897005438805</real>
+				</dict>
+				<key>video</key>
+				<string></string>
+				<key>image</key>
+				<string>IMG_2852</string>
+			</dict>
+			<dict>
+				<key>video</key>
+				<string></string>
+				<key>frameRect</key>
+				<dict>
+					<key>h</key>
+					<real>0.5598480105400085</real>
+					<key>w</key>
+					<real>0.663824021816254</real>
+					<key>y</key>
+					<real>0.21722799539566</real>
+					<key>x</key>
+					<real>0.206897005438805</real>
+				</dict>
+				<key>image</key>
+				<string>IMG_2853</string>
+			</dict>
+			<dict>
+				<key>video</key>
+				<string></string>
+				<key>frameRect</key>
+				<dict>
+					<key>h</key>
+					<real>0.5598480105400085</real>
+					<key>w</key>
+					<real>0.664952993392944</real>
+					<key>y</key>
+					<real>0.220760002732277</real>
+					<key>x</key>
+					<real>0.169278994202614</real>
+				</dict>
+				<key>image</key>
+				<string>IMG_2856</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
